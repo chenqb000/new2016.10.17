@@ -26,5 +26,8 @@ namespace WebApplication1.Controllers
 
             return View();
         }
+        public ActionResult Welcome() {
+            return View();
+        }
     }
 }
