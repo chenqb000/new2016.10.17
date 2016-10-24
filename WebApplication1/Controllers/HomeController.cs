@@ -26,10 +26,12 @@ namespace WebApplication1.Controllers
 
             return View();
         }
-        public ActionResult Welcome() {
+        public ActionResult Welcome()
+        {
             return View();
         }
-        public ActionResult news() {
+        public ActionResult news()
+        {
             {
                 string[] data = new string[] { "台风逼近广西景区关闭学校停课",
                 "广西每年入境游客超300万" ,
@@ -43,7 +45,11 @@ namespace WebApplication1.Controllers
             }
 
 
-            
+
+        }
+        public ActionResult Add()
+        {
+            return View();
         }
     }
 }
