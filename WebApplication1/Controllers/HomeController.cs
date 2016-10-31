@@ -51,5 +51,12 @@ namespace WebApplication1.Controllers
         {
             return View();
         }
+        public ActionResult Save(string title, string content)
+        {
+            ViewBag.Title = title;
+            ViewBag.Content = content;
+            return View();
+        }
     }
 }
+    
