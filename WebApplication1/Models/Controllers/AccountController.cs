@@ -8,9 +8,9 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
-using News.Models;
+using WebApplication1.Models;
 
-namespace News.Controllers
+namespace WebApplication1.Controllers
 {
     [Authorize]
     public class AccountController : Controller
