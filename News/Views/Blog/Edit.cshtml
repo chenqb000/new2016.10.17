@@ -8,14 +8,12 @@
 @using (Html.BeginForm("ArticleSave", "Blog"))
 {
 
-
     <input type="hidden" value="@Model.Id" name="Id" />
     <table class="table table-bordered">
         <tr>
             <td>标题：</td>
             <td>
-                               @Html.TextBox("Subject")
-                
+                @Html.TextBox("Subject")
             </td>
         </tr>
         <tr>
@@ -33,4 +31,4 @@
         </tr>
 
     </table>
-    }
+}
